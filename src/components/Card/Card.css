@@ -1,0 +1,51 @@
+.card {
+    width: calc((100% - 60px) / 3);
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.card--img img {
+    width: 100%;
+}
+
+.card--title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+.card:hover .card--title {
+    color: #256EEB;
+}
+
+.card--price {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    color: black;
+}
+
+.card--desc {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(196, 196, 196);
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: calc((100% - 30px) / 2);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
