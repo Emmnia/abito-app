@@ -5,13 +5,13 @@ import { Home } from './pages/Home';
 import { Product } from './pages/Product';
 import {
   createHashRouter,
-  RouterProvider,
+  RouterProvider
 } from "react-router-dom";
 import { Layout } from './layouts/Layout';
 
 const router = createHashRouter([
   {
-    path: "/*",
+    path: "/",
     element: <Layout />,
     children: [
       {
