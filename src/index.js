@@ -4,12 +4,12 @@ import './index.css';
 import { Home } from './pages/Home';
 import { Product } from './pages/Product';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import { Layout } from './layouts/Layout';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
