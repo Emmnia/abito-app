@@ -11,7 +11,7 @@ import { Layout } from './layouts/Layout';
 
 const router = createHashRouter([
   {
-    path: "/*",
+    path: "/",
     element: <Layout />,
     children: [
       {
